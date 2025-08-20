@@ -1,0 +1,77 @@
+/*
+Written by Riley Tyler
+*/
+
+/* Basic CSS Reset */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* General Styles and Flex Container Styles */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+    /* Below are class styling for background colors */
+.darkblue {
+    background-color: #1F2937;
+}
+.lightgray {
+    background-color: #E5E7EB;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Header Logo and Nav Section Styles */
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Hero Section Styles */
+#hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-signup-button {
+    color: #3882F6;
+}
+
+/* Information Section Styles */
+#info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+/*Quote Section Styles */
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+}
+
+
+

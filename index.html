@@ -8,29 +8,66 @@ Website written/designed by: Riley Tyler
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Landing Page Project">
-        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
     </head>
     <body>
-        <div class="flex-container">
+        <div class="flex-container darkblue">
             <h1 id="header-logo">Header Logo</h1>
             <nav id="nav-bar">
-                <h1 class="header-link">header link one</h1>
-                <h1 class="header-link">header link two</h1>
-                <h1 class="header-link">header link three</h1>
+                <a><h1 class="header-link">header link one</h1></a>
+                <a><h1 class="header-link">header link two</h1></a>
+                <a><h1 class="header-link">header link three</h1></a>
             </nav>
         </div>
-        <div class="flex-container">
-            <div id="hero-text">
+        <div class="flex-container darkblue">
+            <div id="hero-section">
                 <h1 id="hero-main">This website is awesome</h1>
                 <p id="hero-sub">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button id="hero-signup">Sign up</button>
+                <button id="hero-signup-button">Sign up</button>
             </div>
             <div id="hero-image">
-                <img>
+                <img src="images/placeholder-image.png" alt="Placeholder Image">
+            </div>
+        </div>
+        <div class="flex-container">
+            <h1 id="info-header">Some random information.</h1>
+            <div id="info-image-section">
+                <figure>
+                    <img src="images/placeholder-image.png" alt="Placeholder Image">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure> 
+                <figure>
+                    <img src="images/placeholder-image.png" alt="Placeholder Image">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure> 
+                <figure>
+                    <img src="images/placeholder-image.png" alt="Placeholder Image">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure> 
+                <figure>
+                    <img src="images/placeholder-image.png" alt="Placeholder Image">
+                    <figcaption>this is some subtext under an illustration or image</figcaption>
+                </figure> 
+            </div>
+        </div>
+        <div class="flex-container lightgray">
+            <p id="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p id="quote-speaker"><strong>-Thor, God of Thunder</strong></p>
+        </div>
+        <div class="flex-container">
+            <div id="call-to-action">
+                <div>
+                    <h1>Call to action! It's time!</h1>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button id="cta-signup-button">Sign up</button>
             </div>
         </div>
 
-        <footer>
+        <footer class="darkblue">
             <p>Copyright &copy; The Odin Project / Reop 2025</p>
         </footer>
     </body>
