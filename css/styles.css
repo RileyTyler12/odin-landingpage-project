@@ -6,7 +6,6 @@ Written by Riley Tyler
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: normal;
 }
 
 /* General Styles and Flex Container Styles */
@@ -28,17 +27,38 @@ img {
 
 .flex-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.flex-container div {
+    padding: 4%;
+    padding-bottom: 8%;
 }
 
 /* Header Logo and Nav Section Styles */
 #header-logo {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
     font-size: 24px;
     color: #F9FAF8;
 }
 
+#nav-bar {
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: right;
+}
+
 .header-link {
+    text-decoration: none;
     font-size: 18px;
+    margin: 2%;
+    text-wrap: nowrap;
     color: #E5E7EB;
 }
 
@@ -55,23 +75,100 @@ img {
 }
 
 #hero-signup-button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 4px solid #3882F6;
+    border-radius: 6px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 1%;
 }
 
 /* Information Section Styles */
+#info-section {
+    text-align: center;
+    flex-direction: column;
+}
+
 #info-header {
     font-size: 36px;
     font-weight: 900;
+    margin: 4%;
     color: #1F2937;
+}
+
+#info-image-section {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#info-image-section figure {
+    display: inline-block;
+    margin: 2%;
+}
+
+#info-image-section img {
+    height: 200px;
+    max-width: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+#info-image-section figcaption {
+    font-weight: 200;
 }
 
 /*Quote Section Styles */
+#quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 14%;
+}
 #quote-text {
     font-size: 36px;
     font-style: italic;
-    font-weight:lighter;
+    font-weight: lighter;
     color: #1F2937;
 }
 
+#quote-speaker {
+    text-align: right;
+    margin: 1%;
+}
 
+/* Call to Action Section Styles */
+#call-to-action {
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 8%;
+    color: #F9FAF8;
+}
 
+#cta-button-container {
+    width: 25%;
+    text-align: center;
+}
+
+#cta-signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+/* Footer Styles */
+ footer p {
+    text-align: center;
+    color: #F9FAF8;
+    padding: 4%;
+ }
