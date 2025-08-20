@@ -107,11 +107,12 @@ img {
 #info-image-section figure {
     display: inline-block;
     margin: 2%;
+    width: 20%;
 }
 
 #info-image-section img {
-    height: 200px;
-    max-width: 200px;
+    object-fit: scale-down;
+    max-width: 100%;
     border: 4px solid #3882F6;
     border-radius: 16px;
 }
